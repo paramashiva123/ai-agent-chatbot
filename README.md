@@ -16,7 +16,7 @@ This is a web-based AI chatbot application built with **FastAPI**, **Streamlit**
 
 ## 🛠️ Project Structure
 
-```
+
 ai-agent-chatbot/
 │
 ├── ai_agent.py        # Core logic to create and invoke LangGraph agent
@@ -26,15 +26,13 @@ ai-agent-chatbot/
 └── README.md          # Project documentation
 ```
 
----
-
-## 📦 Installation
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/ai-agent-chatbot.git
 cd ai-agent-chatbot
+<<<<<<< HEAD
 ```
 
 ### 2. Set Up Environment
@@ -113,3 +111,4 @@ User Query: What are good investment options for beginners in 2025?
 - [Streamlit](https://streamlit.io)
 - [FastAPI](https://fastapi.tiangolo.com)
 - [Tavily Search](https://www.tavily.com)
+=======
