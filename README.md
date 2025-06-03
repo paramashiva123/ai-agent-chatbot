@@ -24,11 +24,6 @@ ai-agent-chatbot/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
----
 
 ## 📦 Installation
 
@@ -40,18 +35,12 @@ cd ai-agent-chatbot
 2. Set Up Environment
 Install and activate a virtual environment using pipenv:
 
-bash
-Copy
-Edit
 pip install pipenv          # Install pipenv
 pipenv shell                # Activate virtual environment
-pipenv install langchain_openai langchain_groq langchain_community langgraph pydantic uvicorn fastapi streamlit
+pipenv install langchain_openai langchain_groq langchain_community langgraph pydantic uvicorn fastapi streamlit    #install dependencies
 3. Add API Keys
 Create a .env file in the root directory with the following content:
 
-env
-Copy
-Edit
 GROQ_API_KEY=your_groq_api_key
 OPENAI_API_KEY=your_openai_api_key
 TAVILY_API_KEY=your_tavily_api_key
@@ -65,18 +54,13 @@ Tavily
 
 💻 Running the Application
 1. Start the FastAPI Backend
-bash
-Copy
-Edit
+
 python backend.py
 This starts the API server at http://127.0.0.1:9999.
 
 2. Start the Streamlit Frontend
 Open a new terminal and run:
 
-bash
-Copy
-Edit
 streamlit run frontend.py
 Open your browser and visit: http://localhost:8501
 
